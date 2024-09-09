@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\dmska\\source\\repos\\Lab5\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F1A16230-D70C-4102-BE31-39498F07BAA0}|02\\02.csproj|c:\\users\\dmska\\source\\repos\\lab5\\02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1A16230-D70C-4102-BE31-39498F07BAA0}|02\\02.csproj|solutionrelative:02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A16230-D70C-4102-BE31-39498F07BAA0}|02\\02.csproj|c:\\users\\dmska\\source\\repos\\lab5\\02\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1A16230-D70C-4102-BE31-39498F07BAA0}|02\\02.csproj|solutionrelative:02\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0BFA2B56-741B-49CE-9877-07BFDFB1AB25}|03\\03.csproj|c:\\users\\dmska\\source\\repos\\lab5\\03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BFA2B56-741B-49CE-9877-07BFDFB1AB25}|03\\03.csproj|solutionrelative:03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BFA2B56-741B-49CE-9877-07BFDFB1AB25}|03\\03.csproj|c:\\users\\dmska\\source\\repos\\lab5\\03\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BFA2B56-741B-49CE-9877-07BFDFB1AB25}|03\\03.csproj|solutionrelative:03\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1A16230-D70C-4102-BE31-39498F07BAA0}|02\\02.csproj|c:\\users\\dmska\\source\\repos\\lab5\\02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1A16230-D70C-4102-BE31-39498F07BAA0}|02\\02.csproj|solutionrelative:02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,47 +26,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\Lab5\\02\\Person.cs",
+              "RelativeDocumentMoniker": "02\\Person.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\Lab5\\02\\Person.cs",
+              "RelativeToolTip": "02\\Person.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwDQAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T09:10:43.786Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\Lab5\\02\\Program.cs",
               "RelativeDocumentMoniker": "02\\Program.cs",
               "ToolTip": "C:\\Users\\dmska\\source\\repos\\Lab5\\02\\Program.cs",
               "RelativeToolTip": "02\\Program.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAkwB8AAABOAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAkwA8AAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T20:48:13.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\Lab5\\03\\Class1.cs",
               "RelativeDocumentMoniker": "03\\Class1.cs",
               "ToolTip": "C:\\Users\\dmska\\source\\repos\\Lab5\\03\\Class1.cs",
               "RelativeToolTip": "03\\Class1.cs",
-              "ViewState": "AQIAAK0AAAAAAAAAAAAmwLUAAABFAAAA",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAIwJMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T15:31:26.286Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\Lab5\\03\\Program.cs",
               "RelativeDocumentMoniker": "03\\Program.cs",
               "ToolTip": "C:\\Users\\dmska\\source\\repos\\Lab5\\03\\Program.cs",
               "RelativeToolTip": "03\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAQwAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T09:08:53.422Z",
               "EditorCaption": ""

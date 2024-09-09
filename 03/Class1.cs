@@ -34,9 +34,9 @@ namespace _03
 
         public Dough(string typeofflour, string BakingTechnique, float weight)
         {
-            this.TypeOfFlour = typeofflour;
-            this.BakingTechnique = BakingTechnique;
-            this.weight = weight;
+            TYPE = typeofflour;
+            BAKING = BakingTechnique;
+            Weight = weight;
         }
 
         public string TYPE
@@ -62,13 +62,13 @@ namespace _03
 
             set
             {
-                if (value == "Crispy" || value == "Chewy" || value == "Home")
+                if (value == "Crispy" || value == "Chewy" || value == "Home" || value == "Homemade")
                 {
                     BakingTechnique = value;
                 }
                 else
                 {
-                    throw new("Don't know about this baking technique");
+                    throw new($"Don't know about {BakingTechnique} baking technique");
                 }
             }
         }
@@ -112,7 +112,7 @@ namespace _03
             {
                 baking = 1.1f;
             }
-            else if (BakingTechnique == "Home")
+            else if (BakingTechnique == "Home" || BakingTechnique == "Homemade")
             {
                 baking = 1.0f;
             }
@@ -132,8 +132,8 @@ namespace _03
 
         public Topping(string topping, float weight)
         {
-            this.topping = topping;
-            this.weight = weight;
+            TOPPING = topping;
+            WEIGHT = weight;
         }
 
         public string TOPPING

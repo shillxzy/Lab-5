@@ -42,15 +42,15 @@ namespace GoingShopping
             
             if (this.Money < 0)
             {
-                return ("Money cannot be negative");
+                throw new("Money cannot be negative");
             }
             else if (this.Money == 0)
             {
-                return ($"{this.getName()} can't afford Kafence");
+                throw new($"{this.getName()} can't afford Kafence");
             }
             else if (this.Money < product.Cost)
             {
-                return ($"{this.getName()} can't afford {product.Cost}");
+                throw new($"{this.getName()} can't afford {product.Cost}");
             }
 
             this.Money -= product.Cost;
